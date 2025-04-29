@@ -1,10 +1,17 @@
+# Streamlit for UI
 streamlit>=1.32.0
-demucs>=4.0.0
-torchaudio
-torch
-pydub
-numpy
-scipy
-soundfile
-ffmpeg-python
 
+# Demucs & its dependencies
+demucs==4.0.0
+torchaudio>=0.10.0
+torch>=1.10.0
+
+# Audio processing utilities
+ffmpeg-python
+pydub
+soundfile
+scipy
+numpy
+
+# Other dependencies
+requests
